@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/container"
+    android:background="@color/green_behind_view_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="80dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:id="@+id/txt_data"
+        android:background="@android:color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        android:weightSum="3"
+        android:height="80dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:animateLayoutChanges="true"
+        android:background="@color/green_behind_view_background">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:id="@+id/txt_delete"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:text="@string/delete_txt"
+            android:hapticFeedbackEnabled="true"
+            android:paddingLeft="16dp"
+            android:textColor="@android:color/white"
+            android:alpha="0"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:id="@+id/txt_cancel"
+            android:text="@string/cancel_txt"
+            android:textStyle="bold"
+            android:clickable="false"
+            android:textColor="@android:color/white"
+            android:paddingRight="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:alpha="0"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</FrameLayout>

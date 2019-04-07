@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/category_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".CategorySettings">
+
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Include tags"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/set_tags"
+                style="@android:style/Widget.Material.Light.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="groupTagsSet"
+                android:paddingLeft="15dp"
+                android:paddingBottom="25dp"
+                android:text="Настройка тегов"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/divider_button"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/Films_and_animations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Фильмы и анимация"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Autos_and_Vehicles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Транспортные средства"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/animals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Животные"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/sport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Спорт"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/travels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Путешествия"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/games"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Видеоигры"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/people_and_blogs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Люди и блоги"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/comedy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Юмор"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider11"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Entertainment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Развлечения"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/News_and_Politics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Новости и политика"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider13"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Howto_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Хобби и стиль"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider14"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Education"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Образование"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider15"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Science_and_Technology"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Наука и техника"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider16"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Nonprofits_and_Activism"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layoutDirection="rtl"
+                android:paddingLeft="15dp"
+                android:paddingBottom="18dp"
+                android:text="Общество"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">LuckyTube</string>
+    <string name="app_intro_skip">Its too boring...</string>
+
+    <string name="delete_txt">Delete</string>
+    <string name="cancel_txt">Cancel</string>
+
+    <string-array name="tags">
+        <item>Без тега</item>
+        <item>Спорт</item>
+        <item>Новости</item>
+        <item>Наука</item>
+        <item>Политика</item>
+        <item>Музыка</item>
+        <item>Рандомный тег</item>
+        <item>Свой тег</item>
+    </string-array>
+    >
+
+    <string-array name="date">
+        <item>За всё время</item>
+        <item>За последний час</item>
+        <item>Сегодня</item>
+        <item>На этой недел</item>
+        <item>В этом месяце</item>
+        <item>За этот год</item>
+        <item>За период</item>
+    </string-array>
+
+    <string-array name="duration">
+        <item>Любая</item>
+        <item>Короткие</item>
+        <item>Длинные</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="my_cart">My Cart</string>
+    <string name="default_message">Message here</string>
+    <string name="delete">DELETE</string>
+</resources>

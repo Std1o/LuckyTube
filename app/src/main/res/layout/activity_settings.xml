@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <Button
+        android:id="@+id/set_tags"
+        style="@android:style/Widget.Material.Light.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setTags"
+        android:text="Теги"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/set_categories"
+        style="@android:style/Widget.Material.Light.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setCategories"
+        android:text="Категории"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="18dp"
+        android:text="Новые видео"
+        android:textSize="15sp" />
+
+    <View
+        android:id="@+id/divider17"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="18dp"
+        android:text="Светлая тема"
+        android:textSize="15sp" />
+
+    <View
+        android:id="@+id/divider18"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/Widget.Material.Light.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="vk"
+        android:text="Попустить разраба (в лс)"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="15sp"/>
+
+    <View
+        android:id="@+id/divider19"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Material.Light.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="thx"
+        android:text="Сказать спасибо"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+</LinearLayout>
