@@ -1,3 +1,2 @@
-# APVideoPlayer
-
-Simple and clean architecture of android YouTube video player with google sign-in and full screen.
+# LuckyTube
+LuckyTube app that will find for you the sea of random videos. You can search for videos by tag, category, or a bundle of categories and tags. You can add your favorite videos to your playlist, the contents of which you can copy and send to anyone you want. When you minimize LuckyTube puts the video on pause, but in the blind also does not display. Also, the application allows you to download video and audio. By default, LuckyTube shows new videos (currently this video is from the beginning of January 2019). If the application will gain at least some audience, we will continue to develop it.
