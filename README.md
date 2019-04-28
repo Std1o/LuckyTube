@@ -5,9 +5,8 @@ Download APK - https://drive.google.com/open?id=1TT4zEJJgzDAb8mIQQw0-5opk3W-gX17
 
 Screeens:
 ![alt text](https://i.ibb.co/CHjTSZY/Screenshot-20190407-173456-1.png)
-https://drive.google.com/open?id=1SPZNBYN3-Tmj7BMrv3fGoSJ7BXCo0f0u
-https://drive.google.com/open?id=1TGmFChm6kw-Fqg28PYw60dLPZ0oyySip
-https://drive.google.com/open?id=1dT-Fvqic9MrXfbLNjkG5nAfSli4rpoie
-https://drive.google.com/open?id=1ofZfpJJYSH3lTTiM39IQz9rM_mTNQ9yx
-https://drive.google.com/open?id=1A3U82s3ttREnwXDuDiSM1cfeEP5Zode4
-https://drive.google.com/open?id=1CUxz63cYPub8PYVYhhOdWH-7VqrKEC2K
+![alt text](https://i.ibb.co/xDSrn4f/Screenshot-20190407-154447.png)
+![alt text](https://i.ibb.co/PwSXdKc/Screenshot-20190407-154537.png)
+![alt text](https://i.ibb.co/cxyqnMF/Screenshot-20190407-154628.png)
+![alt text](https://i.ibb.co/LQFyXFt/Screenshot-20190407-154610.png)
+![alt text](https://i.ibb.co/wCv4p4D/Screenshot-20190407-154619.png)
