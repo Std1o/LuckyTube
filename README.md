@@ -4,7 +4,7 @@ LuckyTube app that will find for you the sea of random videos. You can search fo
 Download APK - https://drive.google.com/open?id=1TT4zEJJgzDAb8mIQQw0-5opk3W-gX17u
 
 Screeens:
-https://drive.google.com/open?id=1w25xGuS-4S0di2XcqdKoqxProllp5lXn
+![alt text](https://drive.google.com/open?id=1w25xGuS-4S0di2XcqdKoqxProllp5lXn)
 https://drive.google.com/open?id=1SPZNBYN3-Tmj7BMrv3fGoSJ7BXCo0f0u
 https://drive.google.com/open?id=1TGmFChm6kw-Fqg28PYw60dLPZ0oyySip
 https://drive.google.com/open?id=1dT-Fvqic9MrXfbLNjkG5nAfSli4rpoie
