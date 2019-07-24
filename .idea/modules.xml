@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/APVideoPlayer-master.iml" filepath="$PROJECT_DIR$/APVideoPlayer-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArcMenuLibrary/ArcMenuLibrary.iml" filepath="$PROJECT_DIR$/ArcMenuLibrary/ArcMenuLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LuckyTube.iml" filepath="$PROJECT_DIR$/.idea/LuckyTube.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/youtubeExtractor/youtubeExtractor.iml" filepath="$PROJECT_DIR$/youtubeExtractor/youtubeExtractor.iml" />
